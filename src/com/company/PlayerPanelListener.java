@@ -1,5 +1,5 @@
 package com.company;
 
 public interface PlayerPanelListener {
-    void nextRound(Boolean b);
+    void otherPlayersTurn(Boolean b);
 }

@@ -1,5 +1,5 @@
 package com.company;
 
-public interface UpperPanelListener {
+public interface DicePanelListener {
      void numbersStored(StoreNumbers storeNumbers);
 }

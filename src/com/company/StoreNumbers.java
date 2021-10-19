@@ -8,7 +8,6 @@ public class StoreNumbers extends EventObject {
     public StoreNumbers(Object source, int[] numbers) {
         super(source);
         this.numbers = numbers;
-
     }
 
     public int[] getNumbers() {

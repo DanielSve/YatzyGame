@@ -4,9 +4,7 @@ import java.util.Random;
 
 public class DiceGenerator {
 
-    public DiceGenerator(){
-
-    }
+    public DiceGenerator(){}
 
     public int[] getDice(){
         Random random = new Random();
@@ -20,7 +18,5 @@ public class DiceGenerator {
     public int changeDice(){
         Random random = new Random();
         return 1 + random.nextInt(6);
-
     }
-
 }
