@@ -120,7 +120,7 @@ public class CountNumbers {
                     sameNumber1 = numbers[i];
                     isSame=true;
                 }
-                else if(numbers[i] == numbers[j] && isSame) {
+                else if(numbers[i] == numbers[j] && isSame && numbers[i]!=sameNumber1) {
                     sameNumber2 = numbers[i];
                 }
             }
