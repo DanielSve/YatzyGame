@@ -18,36 +18,21 @@ public class CountNumbers {
 
     public void checkCategory(){
         switch (button.getText()){
-            case "Ones " : sum = sumOnes();
-                break;
-            case "Twos " : sum = sumTwos();
-                break;
-            case "Threes " : sum = sumThrees();
-                break;
-            case "Fours " : sum = sumFours();
-                break;
-            case "Fives " : sum = sumFives();
-                break;
-            case "Sixes " : sum = sumSixes();
-                break;
-            case "One Pair " : sum = sumOnePair();
-                break;
-            case "Two Pairs " : sum = sumTwoPairs();
-                break;
-            case "3 of a Kind " : sum = sumThreeOfAKind();
-                break;
-            case "4 of a Kind " : sum = sumFourOfAKind();
-                break;
-            case "Small Straight " : sum = sumSmallStraight();
-                break;
-            case "Large Straight " : sum = sumLargeStraight();
-                break;
-            case "Full House " : sum = sumFullHouse();
-                break;
-            case "Chance " : sum = sumChance();
-                break;
-            case "Yatzy " : sum = sumYatzy();
-                break;
+            case "Ones " -> sum = sumOnes();
+            case "Twos " -> sum = sumTwos();
+            case "Threes " -> sum = sumThrees();
+            case "Fours " -> sum = sumFours();
+            case "Fives " -> sum = sumFives();
+            case "Sixes " -> sum = sumSixes();
+            case "One Pair " -> sum = sumOnePair();
+            case "Two Pairs " -> sum = sumTwoPairs();
+            case "3 of a Kind " -> sum = sumThreeOfAKind();
+            case "4 of a Kind " -> sum = sumFourOfAKind();
+            case "Small Straight " -> sum = sumSmallStraight();
+            case "Large Straight " -> sum = sumLargeStraight();
+            case "Full House " -> sum = sumFullHouse();
+            case "Chance " -> sum = sumChance();
+            case "Yatzy " -> sum = sumYatzy();
         }
     }
 
