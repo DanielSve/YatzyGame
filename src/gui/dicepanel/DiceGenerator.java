@@ -1,4 +1,4 @@
-package com.company;
+package gui.dicepanel;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package com.company;
+package gui.buttons;
 
 import javax.swing.*;
 import java.awt.event.ActionListener;

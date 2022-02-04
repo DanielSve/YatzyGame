@@ -1,4 +1,4 @@
-package com.company;
+package gui.textfields;
 
 import javax.swing.*;
 import java.awt.*;

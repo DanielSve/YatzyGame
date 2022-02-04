@@ -1,4 +1,4 @@
-package com.company;
+package gamelogic;
 
 import java.util.EventObject;
 

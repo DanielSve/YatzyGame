@@ -1,4 +1,6 @@
-package com.company;
+package gui.buttons;
+
+import gui.buttons.Btn;
 
 import java.awt.event.ActionListener;
 

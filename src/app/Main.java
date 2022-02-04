@@ -1,4 +1,6 @@
-package com.company;
+package app;
+
+import gui.mainframe.MainFrame;
 
 public class Main {
 

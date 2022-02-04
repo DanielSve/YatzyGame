@@ -1,4 +1,10 @@
-package com.company;
+package gui.mainframe;
+
+import gamelogic.StoreNumbers;
+import gui.dicepanel.DicePanel;
+import gui.dicepanel.DicePanelListener;
+import gui.playerpanel.PlayerPanel;
+import gui.playerpanel.PlayerPanelListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +18,7 @@ public class MainFrame extends JFrame {
     public MainFrame(){
         setLayout(new GridBagLayout());
         setTitle("Yatzy");
-        setPreferredSize(new Dimension(800,790));
+        setPreferredSize(new Dimension(800,800));
 
         dicePanel = new DicePanel();
         player1Panel = new PlayerPanel("Player 1");

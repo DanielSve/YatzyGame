@@ -1,4 +1,7 @@
-package com.company;
+package gui.dicepanel;
+
+import gamelogic.StoreNumbers;
+import gui.labels.LabelGenerator;
 
 import javax.swing.*;
 import java.awt.*;
@@ -39,9 +42,7 @@ public class DicePanel extends JPanel {
             public void actionPerformed(ActionEvent e) {
                 rollDice();
                 rollsLeft--;
-
                 StoreNumbers storeNumbers = new StoreNumbers(this, dice);
-
                 if (dicePanelListener != null)
                     dicePanelListener.numbersStored(storeNumbers);
             }
@@ -79,7 +80,8 @@ public class DicePanel extends JPanel {
     }
 
     public void setFilenamesArray(){
-        filenames = new String[] {"dice1.jpg", "dice2.jpg", "dice3.jpg", "dice4.jpg", "dice5.jpg", "dice6.jpg"};
+        filenames = new String[] {"assets/images/dice1.jpg", "assets/images/dice2.jpg", "assets/images/dice3.jpg",
+                "assets/images/dice4.jpg", "assets/images/dice5.jpg", "assets/images/dice6.jpg"};
     }
 
     public void setCheckBoxes(){

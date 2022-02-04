@@ -1,4 +1,10 @@
-package com.company;
+package gui.playerpanel;
+
+import gamelogic.CountNumbers;
+import gui.buttons.Btn;
+import gui.buttons.ButtonGenerator;
+import gui.labels.LabelGenerator;
+import gui.textfields.TextFieldGenerator;
 
 import javax.swing.*;
 import java.awt.*;
@@ -53,7 +59,7 @@ public class PlayerPanel extends JPanel implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if(!otherPlayersTurn) {
+        if(!otherPlayersTurn && numbers!=null) {
             clicked = (Btn) e.getSource();
             countNumbers = new CountNumbers(numbers, clicked);
             validField = true;

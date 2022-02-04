@@ -1,4 +1,4 @@
-package com.company;
+package gamelogic;
 
 import javax.swing.*;
 import java.util.Arrays;
